@@ -10,7 +10,6 @@
 body {
 	font-family: var(--dominant-font), sans-serif;
 	font-size: 14px;
-	line-height: 1.71;
 }
 
 /* ============= Current ============= */
@@ -21,13 +20,16 @@ a.current-link {
 
 /* ============= Header ============= */
 
+.logo {
+	text-decoration: none;
+}
+
 .logo-first {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
-	text-decoration: none;
 
 	color: var(--accent-color);
 }
@@ -43,7 +45,7 @@ a.current-link {
 	color: #000000;
 }
 
-.logo-second-white {
+.logo > .logo-second-white {
 	color: #ffffff;
 }
 
@@ -103,7 +105,6 @@ a.current-link {
 .btn:hover,
 .btn:focus {
 	cursor: pointer;
-	color: #188ce8;
 }
 
 .btn-filter {
@@ -131,6 +132,7 @@ a.current-link {
 	font-weight: 700;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
+	text-transform: uppercase;
 
 	color: var(--secondary-color);
 }
