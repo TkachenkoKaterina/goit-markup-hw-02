@@ -1,0 +1,53 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: var(--dark);
+  background-color: var(--white-background);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.logo-web {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  color: var(--primary-brand);
+  text-transform: uppercase;
+}
+
+.logo-studio {
+  color: var(--dark);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
