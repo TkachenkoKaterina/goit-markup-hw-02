@@ -19,8 +19,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--navy-blue);
-  background-color: var(--white-background);
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 a {
@@ -74,7 +74,6 @@ ol {
 
 .hero {
   background-color: var(--navy-blue);
-  height: 600px;
 }
 
 .hero-title {
@@ -84,15 +83,12 @@ ol {
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: var(--white);
-  width: 496px;
 }
 
 .hero-button {
   color: var(--white);
   background-color: var(--iris);
   letter-spacing: 0.64px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -102,6 +98,7 @@ ol {
 }
 
 .section-title {
+  color: var(--navy-blue);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -111,13 +108,13 @@ ol {
 }
 
 .benefits-list-title {
+  color: var(--navy-blue);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
 .benefits-list-text {
-  color: var(--slate);
   font-weight: 400;
 }
 
@@ -136,28 +133,25 @@ ol {
 .team-list-text {
   text-align: center;
   font-weight: 400;
-  color: var(--slate);
 }
 
 .footer {
   background-color: var(--navy-blue);
-  height: 312px;
 }
 
 .footer-text {
   color: var(--cloud);
   font-weight: 400;
-  width: 264px;
 }
 
 .footer-logo-studio {
   color: var(--cloud);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 /* Portfolio */
@@ -165,8 +159,6 @@ ol {
   color: var(--iris);
   text-align: center;
   letter-spacing: 0.64px;
-  border-radius: 4px;
-  border: 1px solid var(--cornflower);
   background-color: var(--cloud);
 }
 
