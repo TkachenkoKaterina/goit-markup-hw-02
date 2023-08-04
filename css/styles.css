@@ -179,4 +179,5 @@ ol {
 .card-list-text {
   color: var(--slate);
   font-weight: 400;
+  /* font-size: 16px; */
 }
