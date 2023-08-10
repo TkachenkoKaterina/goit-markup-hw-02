@@ -15,25 +15,24 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+  /* font-weight: 700;
+  font-size: 16px; */
+  /* line-height: 1.5; */
+  /* letter-spacing: 0.32px; */
   color: var(--slate);
   background-color: var(--white);
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-ul,
-ol {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
-.logo-web {
-  font-family: Raleway;
+.logo {
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -44,15 +43,19 @@ ol {
 
 .logo-studio {
   color: var(--navy-blue);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .nav-list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
@@ -61,9 +64,14 @@ ol {
   color: var(--ocean);
 }
 
+
+.address-lists {
+  font-style: normal;
+}
+
 .address-list-link {
   font-weight: 400;
-  font-style: normal;
+
   color: var(--slate);
 }
 
@@ -86,9 +94,13 @@ ol {
 }
 
 .hero-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
-  letter-spacing: 0.64px;
 }
 
 .hero-button:hover,
@@ -109,6 +121,7 @@ ol {
 
 .benefits-list-title {
   color: var(--navy-blue);
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.4px;
@@ -122,9 +135,14 @@ ol {
   background-color: var(--cloud);
 }
 
+.team-list-item {
+  background-color: var(--white);
+}
+
 .team-list-title {
   text-align: center;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
   color: var(--navy-blue);
@@ -179,5 +197,4 @@ ol {
 .card-list-text {
   color: var(--slate);
   font-weight: 400;
-  /* font-size: 16px; */
 }
