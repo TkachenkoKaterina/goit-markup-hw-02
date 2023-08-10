@@ -71,7 +71,8 @@ body {
 
 .address-list-link {
   font-weight: 400;
-
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
@@ -115,7 +116,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -129,6 +130,8 @@ body {
 
 .benefits-list-text {
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .team {
@@ -144,11 +147,13 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .team-list-text {
+    line-height: 1.5;
+      letter-spacing: 0.02em;
   text-align: center;
   font-weight: 400;
 }
@@ -160,6 +165,8 @@ body {
 .footer-text {
   color: var(--cloud);
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer-logo-studio {
