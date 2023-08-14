@@ -181,9 +181,13 @@ body {
 
 /* Portfolio */
 .filter-list-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--iris);
   text-align: center;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04;
   background-color: var(--cloud);
 }
 
@@ -195,13 +199,16 @@ body {
 }
 
 .card-list-title {
+  font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
 
 .card-list-text {
+  font-style: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
-  font-weight: 400;
 }
